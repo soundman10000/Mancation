@@ -30,7 +30,8 @@ module.exports =
     ]
   , resolve:
     { alias:
-    {
+    { 'mdl': 'material-design-lite/material.css'
+      , 'fa': 'font-awesome/css/font-awesome.css'
     }
     , root:  [ path.resolve('./') ]
     , packageAlias: 'browser'
