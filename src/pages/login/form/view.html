@@ -1,11 +1,13 @@
 <template>
-  <div>
-  <input type="textbox" placeholder="Login" class="${style.formElement}"/>
-  </div>
-  <div>
-    <input type="password" placeholder="Password" class="${style.formField}"/>
-  </div>
-  <div>
-    <button click.delegate="Login()" class="${style.loginBtn}">Login</button>
+  <div class="${style.container}">
+    <div>
+      <input type="textbox" placeholder="Login" class="${style.formField}"/>
+    </div>
+    <div>
+      <input type="password" placeholder="Password" class="${style.formField}"/>
+    </div>
+    <div>
+      <button click.delegate="Login()" class="${style.loginBtn}">Login</button>
+    </div>
   </div>
 </template>

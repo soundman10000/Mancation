@@ -1,8 +1,31 @@
 @import "theme.pcss";
-
-.formElement {
-
+.container{
+  margin: var(--margin-md);
 }
 .loginBtn{
   composes: mdl-button mdl-button--icon from "mdl";
+}
+.formField {
+  composes: man-input from 'mancation';
+  margin-bottom: var(--margin-md);
+}
+
+.formFieldError {
+  composes: formField;
+
+  & > .input {
+    border-bottom: 1px solid var(--error-secondary-color);
+  }
+
+  & > .informationLabel {
+    color: var(--error-secondary-color);
+  }
+
+  &:hover > .error {
+    visibility: visible;
+  }
+
+  & > .text:focus + .error {
+    visibility: visible;
+  }
 }

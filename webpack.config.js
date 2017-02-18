@@ -31,7 +31,8 @@ module.exports =
   , resolve:
     { alias:
     { 'mdl': 'material-design-lite/material.css'
-      , 'fa': 'font-awesome/css/font-awesome.css'
+    , 'fa': 'font-awesome/css/font-awesome.css'
+    , 'mancation': 'src/styles/mancation.pcss'
     }
     , root:  [ path.resolve('./') ]
     , packageAlias: 'browser'
