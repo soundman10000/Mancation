@@ -7,10 +7,10 @@ const routes =
     , nav: true, title:'Login'
     }
   ,
-    { route: ['user/:id']
-    , name: 'user'
-    , moduleId: 'pages/user/component'
-    , nav: false, title:'User'
+    { route: ['index']
+    , name: 'index'
+    , moduleId: 'pages/index/component'
+    , nav: false, title:'Index'
     }
   ,
     { route: ['']
