@@ -12,6 +12,5 @@ export class LoginForm{
   }
 
   Login(){
-    alert('login')
   }
 }

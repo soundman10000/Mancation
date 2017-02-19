@@ -3,5 +3,7 @@ export function configure(aurelia) {
     './login/header/component'
   , './login/container/component'
   , './login/form/component'
+  , './login/instructions/component'
+  , './login/copyright/component'
   , './login/disclaimer/component')
 }
