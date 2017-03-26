@@ -13,8 +13,14 @@ const routes =
     , nav: false, title:'Index'
     }
   ,
+    { route: ['main']
+    , name: 'main'
+    , moduleId: 'pages/main/component'
+    , nav: false, title:'Mancation'
+    }
+  ,
     { route: ['']
-    , redirect: 'login'
+    , redirect: 'main'
     }
   ]
 
@@ -27,7 +33,7 @@ export class App {
 
     config.map(routes)
 
-    config.mapUnknownRoutes(() => 'pages/login/component')
+    config.mapUnknownRoutes(() => 'pages/main/component')
 
     this.router = router
   }
