@@ -8,6 +8,7 @@ export function configure(aurelia) {
   , './login/disclaimer/component'
   // Register
   , './register/form/component'
+  , './register/disclaimer/component'
   // Global
   , './global/copyright/component'
   // Main

@@ -1,3 +1,12 @@
 <template>
-  Register
+  <div class="${style.container}">
+    <h1>Register</h1>
+    <register-disclaimer></register-disclaimer>
+    <div class="${style.details}">
+      <register-form user.bind="data.user" ></register-form>
+      <div class="${style.save}">
+        <button click.delegate="Register()" class="${style.registerButton}">Register</button>
+      </div>
+    </div>
+  </div>
 </template>

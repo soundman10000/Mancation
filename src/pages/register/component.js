@@ -5,5 +5,11 @@ import style from './style.pcss'
 export class MancationRegister{
   constructor(){
     this.style = style
+    this.data = {
+      user: {}
+    }
+  }
+
+  Register(){
   }
 }
