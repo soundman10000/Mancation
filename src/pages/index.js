@@ -5,10 +5,11 @@ export function configure(aurelia) {
   , './login/container/component'
   , './login/form/component'
   , './login/instructions/component'
-  , './login/copyright/component'
   , './login/disclaimer/component'
   // Register
   , './register/form/component'
+  // Global
+  , './global/copyright/component'
   // Main
   , './main/login-container/component'
   , './main/information/component'
