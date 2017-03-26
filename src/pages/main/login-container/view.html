@@ -1,3 +1,15 @@
 <template>
-  This is the login container
+  <h4>
+    Welcome to Mancation!
+  </h4>
+  <div class="${style.details}">
+    <div class="${style.registerContainer}">
+      <span>Ready to party?</span>
+      <a route-href="route: register;" class="${style.register}">register</a>
+    </div>
+    <div class="${style.loginContainer}">
+      <span>Already partying?</span>
+      <a route-href="route: login;" class="${style.login}">login</a>
+    </div>
+  </div>
 </template>

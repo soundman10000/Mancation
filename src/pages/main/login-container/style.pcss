@@ -3,3 +3,40 @@
 :root{
 
 }
+body { background-color: var(--man-cream) }
+
+h4{
+  text-align: center;
+}
+
+.details{
+  display: inline-block;
+}
+
+.button{
+  composes: mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect from 'mdl';
+  lost-utility: clearfix;
+  lost-column: 1/1;
+  display: inline-block;
+  position: relative;
+  transition: all 200ms ease-in;
+  transform: scale(1);
+
+  &:hover {
+    z-index: 2;
+    box-shadow: 0 5px 15px -3px rgba(0, 0, 0, 0.54);
+    transition: all 200ms ease-in;
+    transform: scale(1.1);
+  }
+}
+.registerContainer{
+}
+.loginContainer{
+}
+
+.register{
+  composes: button;
+}
+.login{
+  composes: button;
+}

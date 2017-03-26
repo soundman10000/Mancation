@@ -7,7 +7,10 @@ export function configure(aurelia) {
   , './login/instructions/component'
   , './login/copyright/component'
   , './login/disclaimer/component'
+  // Register
+  , './register/form/component'
   // Main
   , './main/login-container/component'
+  , './main/information/component'
   , './main/title/component')
 }

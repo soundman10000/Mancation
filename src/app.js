@@ -19,6 +19,12 @@ const routes =
     , nav: false, title:'Mancation'
     }
   ,
+    { route: ['register']
+    , name: 'register'
+    , moduleId: 'pages/register/component'
+    , nav: false, title:'Register'
+    }
+  ,
     { route: ['']
     , redirect: 'main'
     }
@@ -29,7 +35,7 @@ export class App {
   }
 
   configureRouter(config, router) {
-    config.title = 'Form'
+    config.title = 'Home'
 
     config.map(routes)
 
