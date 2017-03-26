@@ -25,6 +25,22 @@ const routes =
     , nav: false, title:'Register'
     }
   ,
+  ,
+    { route: ['about']
+    , name: 'about'
+    , moduleId: 'pages/about/component'
+    , nav: true,
+      title:'About Us'
+    }
+  ,
+  ,
+    { route: ['media']
+    , name: 'media'
+    , moduleId: 'pages/media/component'
+    , nav: true,
+      title:'Media'
+    }
+  ,
     { route: ['']
     , redirect: 'main'
     }

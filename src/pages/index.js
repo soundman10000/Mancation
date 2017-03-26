@@ -14,5 +14,6 @@ export function configure(aurelia) {
   // Main
   , './main/login-container/component'
   , './main/information/component'
+  , './main/menu/component'
   , './main/title/component')
 }
