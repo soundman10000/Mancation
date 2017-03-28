@@ -3,7 +3,7 @@
 
 const path = require('path')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
-const AureliaWebpackPlugin = require('ebsi-aurelia-webpack-plugin')
+const AureliaWebpackPlugin = require('malley-aurelia-plugin')
 const ProvidePlugin = require('webpack/lib/ProvidePlugin')
 const CopyWebpackPlugin = require('copy-webpack-plugin')
 const pkg = require('./package.json')

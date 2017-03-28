@@ -2,7 +2,7 @@
 /*global __dirname */
 
 const path = require('path')
-const AureliaWebpackPlugin = require('ebsi-aurelia-webpack-plugin')
+const AureliaWebpackPlugin = require('malley-aurelia-plugin')
 const ProvidePlugin = require('webpack/lib/ProvidePlugin')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 const CopyWebpackPlugin = require('copy-webpack-plugin')
